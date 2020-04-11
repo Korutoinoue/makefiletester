@@ -1,5 +1,5 @@
 output: Bonjour.o hallo.o
-	g++ main.o hallo.o -o output 
+	g++ Bonjour.o hallo.o -o output 
 
 Bonjour.o: Bonjour.cpp
 	g++ -c Bonjour.cpp
